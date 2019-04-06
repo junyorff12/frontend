@@ -108,11 +108,22 @@ p {
 
 footer {
   background-image: url(../img/fundo-rodape.png);
+  clear: both;
+  padding: 20px 0;
+}
 
+.container img {
+  padding-left : 20px;
 }
 
 footer .container {
   position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .social a {
@@ -121,6 +132,11 @@ footer .container {
 
   display: block;
   text-indent: -99999px;
+}
+
+.social li {
+  float: left;
+  margin-right: 25px;
 }
 
 .social a[href*="facebook.com"] {
