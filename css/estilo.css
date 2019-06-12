@@ -111,8 +111,8 @@ header {
 
 .busca input[type=search] {
   width: 140px;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .busca button {
@@ -136,7 +136,7 @@ header {
   margin: 10px 0;
   padding: 10px;
   width: 445px;
-  border-radius: 4px;
+  border-radius: 5px;
   box-shadow: inset 1px 1px 1px #999;
 }
 
@@ -144,9 +144,18 @@ header {
   display: inline-block;
   vertical-align: top;
   width: 140px;
-
   margin: 2px;
   padding-bottom: 10px;
+}
+
+.painel li img {
+  border-radius: 5px;
+}
+
+.painel li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px #999;
+  transition: all 0.7s;
 }
 
 .painel h2:before {
@@ -158,11 +167,13 @@ header {
 .novidades {
   float: left;
   background-color: #F5DCDC;
+  background: linear-gradient(#F5DCDC, #BEBEF4);
 }
 
 .mais-vendidos {
   float: right;
   background-color: #DCDCF5;
+  background: linear-gradient(#DCDCF5, #F4BEBE);
 }
 
 .painel h2 {
