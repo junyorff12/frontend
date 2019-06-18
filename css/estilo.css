@@ -155,7 +155,13 @@ header {
 .painel li:hover {
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 0 10px #999;
-  transition: all 0.7s;
+  transition: all 0.9s;
+  border-radius: 5px;
+  transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover {
+transform: scale(1.2) rotate(5deg);
 }
 
 .painel h2:before {
