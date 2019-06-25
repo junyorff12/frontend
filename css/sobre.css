@@ -163,51 +163,14 @@ footer .container {
   background-image: url(../img/googleplus.png);
 }
 
-/*MOBILE*/
+/*mobile*/
 
-@media (max-width: 939px) {
-
+@media (max-width: 320px) {
   .container {
     width: 96%;
   }
 
-  header h1 {
+  header h1 , h1 {
     text-align: center;
   }
-
-  header h1 img {
-    max-width: 50%;
-  }
-
-  h1 , p, img, ul, footer, figure{
-    max-width: 100%;
-  }
-
-  #centro-distribuicao {
-    max-width: 100%;
-  }
-
-  .sacola {
-    display: none;
-  }
-
-  .menu-opcoes {
-    position: static;
-    text-align: center;
-  }
-
-  .menu-opcoes ul {
-    font-size: 25px;
-  }
-
-  .menu-opcoes ul li {
-    display: inline-block;
-    margin: 5px;
-  }
-
-  .title {
-    text-align: center;
-  }
-
-
 }
