@@ -179,11 +179,11 @@ footer .container {
     max-width: 50%;
   }
 
-  h1 {
-    width: 100%;
+  h1 , p, img, ul, footer, figure{
+    max-width: 100%;
   }
 
-  img {
+  #centro-distribuicao {
     max-width: 100%;
   }
 
@@ -208,5 +208,6 @@ footer .container {
   .title {
     text-align: center;
   }
+
 
 }
